@@ -1,16 +1,12 @@
 x,y=int(input('enter first number:')),int(input('enter second number:'))
-summ=x+y
-dif=x-y
-mul=x*y
-div=x/y
 op=input('enter operation:')
 if op=='sum':
-    print(summ)
+    print(x+y)
 elif op=='dif':
-    print(dif)
+    print(x-y)
 elif op=='mul':
-    print(mul)
+    print(x*y)
 elif op=='div':
-    print(div)
+    print(x/y)
 else:
     print('no operation')
