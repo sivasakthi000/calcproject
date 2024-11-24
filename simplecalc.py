@@ -9,4 +9,4 @@ elif op=='mul':
 elif op=='div':
     print(x/y)
 else:
-    print('no operation')
+    print('no operations')
